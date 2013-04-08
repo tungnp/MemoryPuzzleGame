@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>number of images</key>
+		<integer>4</integer>
+		<key>row</key>
+		<integer>4</integer>
+		<key>images</key>
+		<array>
+			<string>dk</string>
+			<string>es</string>
+			<string>spectre</string>
+			<string>enigma</string>
+		</array>
+		<key>downside image</key>
+		<string>downsideImage</string>
+		<key>background</key>
+		<string>background</string>
+	</dict>
+</array>
+</plist>

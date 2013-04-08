@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900B790C1711E1C70025AB30 /* dk.png in Resources */ = {isa = PBXBuildFile; fileRef = 900B79081711E1C70025AB30 /* dk.png */; };
+		900B790D1711E1C70025AB30 /* enigma.png in Resources */ = {isa = PBXBuildFile; fileRef = 900B79091711E1C70025AB30 /* enigma.png */; };
+		900B790E1711E1C70025AB30 /* es.png in Resources */ = {isa = PBXBuildFile; fileRef = 900B790A1711E1C70025AB30 /* es.png */; };
+		900B790F1711E1C70025AB30 /* spectre.png in Resources */ = {isa = PBXBuildFile; fileRef = 900B790B1711E1C70025AB30 /* spectre.png */; };
+		900B79111711E7870025AB30 /* downsideImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 900B79101711E7870025AB30 /* downsideImage.png */; };
+		900B79141711F3E50025AB30 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 900B79131711F3E50025AB30 /* NSMutableArray+Shuffle.m */; };
+		900B7916171209880025AB30 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 900B7915171209880025AB30 /* background.png */; };
+		90A53D841712DA180048E6C7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A53D831712DA180048E6C7 /* AVFoundation.framework */; };
+		90A53D881712EEE60048E6C7 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90A53D851712EEE60048E6C7 /* beep.mp3 */; };
+		90A53D891712EEE60048E6C7 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90A53D861712EEE60048E6C7 /* error.mp3 */; };
+		90A53D8A1712EEE60048E6C7 /* flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90A53D871712EEE60048E6C7 /* flip.mp3 */; };
+		90A53D931712F4570048E6C7 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A53D911712F4570048E6C7 /* HomeScreenViewController.m */; };
+		90A53D941712F4570048E6C7 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90A53D921712F4570048E6C7 /* HomeScreenViewController.xib */; };
+		90A53D961712F7980048E6C7 /* homeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A53D951712F7980048E6C7 /* homeBackground.png */; };
 		90AFEAFE170DD5B5003665AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AFEAFD170DD5B5003665AC /* UIKit.framework */; };
 		90AFEB00170DD5B5003665AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AFEAFF170DD5B5003665AC /* Foundation.framework */; };
 		90AFEB02170DD5B5003665AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AFEB01170DD5B5003665AC /* CoreGraphics.framework */; };
@@ -16,9 +30,32 @@
 		90AFEB10170DD5B5003665AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AFEB0F170DD5B5003665AC /* Default.png */; };
 		90AFEB12170DD5B5003665AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AFEB11170DD5B5003665AC /* Default@2x.png */; };
 		90AFEB14170DD5B5003665AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AFEB13170DD5B5003665AC /* Default-568h@2x.png */; };
+		90AFEB1D170DD61E003665AC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AFEB1B170DD61E003665AC /* GameViewController.m */; };
+		90AFEB1E170DD61E003665AC /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90AFEB1C170DD61E003665AC /* GameViewController.xib */; };
+		90AFEB21170DD7FA003665AC /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AFEB20170DD7FA003665AC /* GameManager.m */; };
+		90AFEB24170DD823003665AC /* GameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AFEB23170DD823003665AC /* GameLevel.m */; };
+		90AFEB28170DD89F003665AC /* PieceImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AFEB27170DD89F003665AC /* PieceImageView.m */; };
+		90AFEB2A170DE187003665AC /* gameLevel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90AFEB29170DE187003665AC /* gameLevel.plist */; };
+		90B7ACE61712D2FE006776F7 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90B7ACE51712D2FE006776F7 /* backgroundMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		900B79081711E1C70025AB30 /* dk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dk.png; sourceTree = "<group>"; };
+		900B79091711E1C70025AB30 /* enigma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enigma.png; sourceTree = "<group>"; };
+		900B790A1711E1C70025AB30 /* es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = es.png; sourceTree = "<group>"; };
+		900B790B1711E1C70025AB30 /* spectre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spectre.png; sourceTree = "<group>"; };
+		900B79101711E7870025AB30 /* downsideImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downsideImage.png; sourceTree = "<group>"; };
+		900B79121711F3E50025AB30 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		900B79131711F3E50025AB30 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		900B7915171209880025AB30 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		90A53D831712DA180048E6C7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		90A53D851712EEE60048E6C7 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		90A53D861712EEE60048E6C7 /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
+		90A53D871712EEE60048E6C7 /* flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flip.mp3; sourceTree = "<group>"; };
+		90A53D901712F4570048E6C7 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		90A53D911712F4570048E6C7 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		90A53D921712F4570048E6C7 /* HomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
+		90A53D951712F7980048E6C7 /* homeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeBackground.png; sourceTree = "<group>"; };
 		90AFEAFA170DD5B5003665AC /* MemoryPuzzleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryPuzzleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90AFEAFD170DD5B5003665AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90AFEAFF170DD5B5003665AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +69,17 @@
 		90AFEB0F170DD5B5003665AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		90AFEB11170DD5B5003665AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		90AFEB13170DD5B5003665AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		90AFEB1A170DD61E003665AC /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		90AFEB1B170DD61E003665AC /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		90AFEB1C170DD61E003665AC /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		90AFEB1F170DD7FA003665AC /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		90AFEB20170DD7FA003665AC /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
+		90AFEB22170DD823003665AC /* GameLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevel.h; sourceTree = "<group>"; };
+		90AFEB23170DD823003665AC /* GameLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLevel.m; sourceTree = "<group>"; };
+		90AFEB26170DD89F003665AC /* PieceImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceImageView.h; sourceTree = "<group>"; };
+		90AFEB27170DD89F003665AC /* PieceImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceImageView.m; sourceTree = "<group>"; };
+		90AFEB29170DE187003665AC /* gameLevel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gameLevel.plist; sourceTree = "<group>"; };
+		90B7ACE51712D2FE006776F7 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A53D841712DA180048E6C7 /* AVFoundation.framework in Frameworks */,
 				90AFEAFE170DD5B5003665AC /* UIKit.framework in Frameworks */,
 				90AFEB00170DD5B5003665AC /* Foundation.framework in Frameworks */,
 				90AFEB02170DD5B5003665AC /* CoreGraphics.framework in Frameworks */,
@@ -48,6 +97,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		900B79071711E1C70025AB30 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				90A53D951712F7980048E6C7 /* homeBackground.png */,
+				900B7915171209880025AB30 /* background.png */,
+				900B79101711E7870025AB30 /* downsideImage.png */,
+				900B79081711E1C70025AB30 /* dk.png */,
+				900B79091711E1C70025AB30 /* enigma.png */,
+				900B790A1711E1C70025AB30 /* es.png */,
+				900B790B1711E1C70025AB30 /* spectre.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+		90A53D9717132A5C0048E6C7 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				90A53D901712F4570048E6C7 /* HomeScreenViewController.h */,
+				90A53D911712F4570048E6C7 /* HomeScreenViewController.m */,
+				90A53D921712F4570048E6C7 /* HomeScreenViewController.xib */,
+				90AFEB1A170DD61E003665AC /* GameViewController.h */,
+				90AFEB1B170DD61E003665AC /* GameViewController.m */,
+				90AFEB1C170DD61E003665AC /* GameViewController.xib */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
 		90AFEAF1170DD5B5003665AC = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +144,7 @@
 		90AFEAFC170DD5B5003665AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				90A53D831712DA180048E6C7 /* AVFoundation.framework */,
 				90AFEAFD170DD5B5003665AC /* UIKit.framework */,
 				90AFEAFF170DD5B5003665AC /* Foundation.framework */,
 				90AFEB01170DD5B5003665AC /* CoreGraphics.framework */,
@@ -78,8 +155,16 @@
 		90AFEB03170DD5B5003665AC /* MemoryPuzzleGame */ = {
 			isa = PBXGroup;
 			children = (
+				90A53D9717132A5C0048E6C7 /* viewController */,
+				90B7ACE41712D2FE006776F7 /* music */,
+				900B79071711E1C70025AB30 /* images */,
 				90AFEB0C170DD5B5003665AC /* AppDelegate.h */,
 				90AFEB0D170DD5B5003665AC /* AppDelegate.m */,
+				90AFEB1F170DD7FA003665AC /* GameManager.h */,
+				90AFEB20170DD7FA003665AC /* GameManager.m */,
+				900B79121711F3E50025AB30 /* NSMutableArray+Shuffle.h */,
+				900B79131711F3E50025AB30 /* NSMutableArray+Shuffle.m */,
+				90AFEB25170DD843003665AC /* Data Model */,
 				90AFEB04170DD5B5003665AC /* Supporting Files */,
 			);
 			path = MemoryPuzzleGame;
@@ -98,6 +183,29 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		90AFEB25170DD843003665AC /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				90AFEB26170DD89F003665AC /* PieceImageView.h */,
+				90AFEB27170DD89F003665AC /* PieceImageView.m */,
+				90AFEB22170DD823003665AC /* GameLevel.h */,
+				90AFEB23170DD823003665AC /* GameLevel.m */,
+				90AFEB29170DE187003665AC /* gameLevel.plist */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		90B7ACE41712D2FE006776F7 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				90A53D851712EEE60048E6C7 /* beep.mp3 */,
+				90A53D861712EEE60048E6C7 /* error.mp3 */,
+				90A53D871712EEE60048E6C7 /* flip.mp3 */,
+				90B7ACE51712D2FE006776F7 /* backgroundMusic.mp3 */,
+			);
+			path = music;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -154,6 +262,20 @@
 				90AFEB10170DD5B5003665AC /* Default.png in Resources */,
 				90AFEB12170DD5B5003665AC /* Default@2x.png in Resources */,
 				90AFEB14170DD5B5003665AC /* Default-568h@2x.png in Resources */,
+				90AFEB1E170DD61E003665AC /* GameViewController.xib in Resources */,
+				90AFEB2A170DE187003665AC /* gameLevel.plist in Resources */,
+				900B790C1711E1C70025AB30 /* dk.png in Resources */,
+				900B790D1711E1C70025AB30 /* enigma.png in Resources */,
+				900B790E1711E1C70025AB30 /* es.png in Resources */,
+				900B790F1711E1C70025AB30 /* spectre.png in Resources */,
+				900B79111711E7870025AB30 /* downsideImage.png in Resources */,
+				900B7916171209880025AB30 /* background.png in Resources */,
+				90B7ACE61712D2FE006776F7 /* backgroundMusic.mp3 in Resources */,
+				90A53D881712EEE60048E6C7 /* beep.mp3 in Resources */,
+				90A53D891712EEE60048E6C7 /* error.mp3 in Resources */,
+				90A53D8A1712EEE60048E6C7 /* flip.mp3 in Resources */,
+				90A53D941712F4570048E6C7 /* HomeScreenViewController.xib in Resources */,
+				90A53D961712F7980048E6C7 /* homeBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +288,12 @@
 			files = (
 				90AFEB0A170DD5B5003665AC /* main.m in Sources */,
 				90AFEB0E170DD5B5003665AC /* AppDelegate.m in Sources */,
+				90AFEB1D170DD61E003665AC /* GameViewController.m in Sources */,
+				90AFEB21170DD7FA003665AC /* GameManager.m in Sources */,
+				90AFEB24170DD823003665AC /* GameLevel.m in Sources */,
+				90AFEB28170DD89F003665AC /* PieceImageView.m in Sources */,
+				900B79141711F3E50025AB30 /* NSMutableArray+Shuffle.m in Sources */,
+				90A53D931712F4570048E6C7 /* HomeScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +408,7 @@
 				90AFEB19170DD5B5003665AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
