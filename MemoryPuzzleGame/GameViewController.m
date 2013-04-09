@@ -51,8 +51,14 @@ AVAudioPlayer* errorSound;
     return self;
 }
 - (void) rotateAround{
-    rotateView.transform = CGAffineTransformRotate(rotateView.transform, M_PI/180);
+    float angle = ((float)M_PI) / (arc4random() % 10 +1);
+    if (arc4random()%2) {
+        angle = -angle;
     }
+    [UIView animateWithDuration: angle animations:^{
+        rotateView.transform = CGAffineTransformRotate(rotateView.transform, angle);
+    }];
+}
 + (AVAudioPlayer*) audioForFileName: (NSString*) fileName
                              ofType: (NSString*) type{
     NSString* audioFilePath = [[NSBundle mainBundle]pathForResource:fileName ofType:type];
@@ -89,7 +95,6 @@ AVAudioPlayer* errorSound;
         [self.view addSubview:scrollView];
         [gameManager loadViewTo:piecesContainerView];
         rotateView = piecesContainerView;
-        NSTimer* timer = [NSTimer scheduledTimerWithTimeInterval:0.025 target:self selector:@selector(rotateAround) userInfo:nil repeats:YES];
     }
     else if (self.type == NORMAL){
         [gameManager loadViewTo:self.view];
@@ -203,7 +208,9 @@ AVAudioPlayer* errorSound;
     }
 }
 - (void) didSelectTwoWrongPieces{
-    
+    if (self.type == ROTATE) {
+        [self rotateAround];
+    }
 }
 - (void)didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];
